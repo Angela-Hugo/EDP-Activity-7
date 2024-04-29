@@ -94,10 +94,10 @@ namespace EDP
                         dataGridView1.Columns["attorney_name"].DataPropertyName = "attorney_name";
                         dataGridView1.Columns["attorney_name"].Width = 100;
 
-                        dataGridView1.DefaultCellStyle.Font = new Font("Arial", 10); // Change "Arial" and 10 to your desired font and size
+                        dataGridView1.DefaultCellStyle.Font = new Font("Arial", 9); // Change "Arial" and 9 to your desired font and size
 
                         // Set the font size for the DataGridView headers
-                        dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 10);
+                        dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 9);
                     }
                     else
                     {
